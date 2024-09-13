@@ -13,8 +13,10 @@
         <li><a href="https://kubsu.ru"> абсолютная на главную сайта kubsu.ru в протоколе https</a></li>
 
         <li><a href="https://kubsu.ru">
-                <img src="https://avatars.mds.yandex.net/i?id=4c79e0f3fa8efff9bb736bd36b859fbc0cf14414-9065739-images-thumbs&n=13"
-                width="300" height="300" width="300">
+                <img src="https://avatars.mds.yandex.net/i?id=4c79e0f3fa8efff9bb736bd36b859fbc0cf14414-9065739-images-thumbs&n=13" 
+                alt="КубГУ"
+                width="300" 
+                height="300">
             </a>
         </li>
 
@@ -60,13 +62,13 @@
             </map>
         </li>
 
-        <li><a href="##"> ссылка с пустым href</a></li>
+        <li><a href="#"> ссылка с пустым href</a></li>
 
         <li><a onclick="surprise();" tabindex="0">Ссылка без href</a></li>
 
         <li><a href="https://kubsu.ru" rel="nofollow">ссылка, по которой запрещен переход поисковикам</a></li>
 
-        <li><noindex><a href="https://kubsu.ru" >запрещенная для индексации поисковиками</a></noindex></li>
+        <li><a href="https://kubsu.ru" ><noindex>запрещенная для индексации поисковиками</noindex></a></li>
 
         <li><p>нумерованный список ссылок</p>
             <ol>
@@ -87,23 +89,22 @@
 
 
 
-    <h3>
-        <div id="reg">Пожалуйста, введите свои данные для регистрации</div>
-    </h3>
+    
+    <div id="reg"><h3>Пожалуйста, введите свои данные для регистрации</h3></div>
 
     <form>
-        ФИО<br />
-        <input name="text"><br />
+        ФИО<br>
+        <input name="text"><br>
     </form>
 
     <form>
-        Номер телефона<br />
-        <input type="tel" value="+7"><br />
+        Номер телефона<br>
+        <input type="tel" value="+7"><br>
     </form>
 
     <form>
-        Адрес электронной почты<br />
-        <input type="email" value="@gmail.com"><br />
+        Адрес электронной почты<br>
+        <input type="email" value="@gmail.com"><br>
     </form>
 
     <form>
@@ -119,18 +120,18 @@
 
     <form>
         Любимый язык программирования<br>
-        <select multiple>
-            <option name="lang" size="5" value="1">Pascal</option>
-            <option name="lang" size="5" value="2">C</option>
-            <option name="lang" size="5" value="3" selected>C++</option>
-            <option name="lang" size="5" value="4">Java Script</option>
-            <option name="lang" size="5" value="5">PHP</option>
-            <option name="lang" size="5" value="6">Python</option>
-            <option name="lang" size="5" value="7">Java</option>
-            <option name="lang" size="5" value="8">Haskel</option>
-            <option name="lang" size="5" value="9">Clojure</option>
-            <option name="lang" size="5" value="10">Prolog</option>
-            <option name="lang" size="5" value="11">Scala</option>
+        <select name="lang" size="5" multiple>
+            <option value="1">Pascal</option>
+            <option value="2">C</option>
+            <option value="3" selected>C++</option>
+            <option value="4">Java Script</option>
+            <option value="5">PHP</option>
+            <option value="6">Python</option>
+            <option value="7">Java</option>
+            <option value="8">Haskel</option>
+            <option value="9">Clojure</option>
+            <option value="10">Prolog</option>
+            <option value="11">Scala</option>
         </select>
     </form>
 
