@@ -73,13 +73,13 @@
         <li><p>нумерованный список ссылок</p>
             <ol>
                 <li>
-                    <a href="http://kubsu.ru"> КубГУ</a>
+                    <a href="http://kubsu.ru" title="Главная страница КубГУ"> КубГУ</a>
                 </li>
                 <li>
-                    <a href="https://www.kubsu.ru/ru/education"> КубГУ Образование</a>
+                    <a href="https://www.kubsu.ru/ru/education" title="КубГУ/Образование"> КубГУ Образование</a>
                 </li>
                 <li>
-                    <a href="https://www.kubsu.ru/ru/science"> КубГУ Наука</a>
+                    <a href="https://www.kubsu.ru/ru/science" title="КубГУ/Наука"> КубГУ Наука</a>
                 </li>
             </ol>
         </li>
@@ -120,7 +120,7 @@
 
     <form>
         Любимый язык программирования<br>
-        <select name="lang" size="5" multiple>
+        <select name="lang" [] size="5" multiple>
             <option value="1">Pascal</option>
             <option value="2">C</option>
             <option value="3" selected>C++</option>
@@ -144,7 +144,7 @@
         <input type="checkbox"> С контрактом ознакомлен(а) <br>
     </form>
 
-    <button>Сохранить</button>
+    <button form name="form" method="post" action="index.html">Отправить</button>
 
 </body>
 
