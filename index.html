@@ -3,10 +3,26 @@
 
 <head>
     <title>Авторизация пользователя</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h3>Гиперссылки:</h3>
+
+    <header>
+        <h1 class="name">Название</h1>
+        <a class="logo" href=""><img src="logo.png"></a>
+        <nav>
+        <ul id="menu">
+            <li><a href="#s">Гиперссылка</a></li>
+            <li><a href="#table">Таблица</a></li>
+            <li><a href="#reg">Форма</a></li>
+        </ul>
+        </nav>
+    </header>
+
+
+
+    <div id="s"><h3>Гиперссылки:</h3></div>
     <ul>
         <li><a href="http://kubsu.ru"> абсолютная гиперссылку на главную страницу сайта kubsu.ru</a></li>
 
@@ -89,7 +105,60 @@
 
 
 
-    
+
+    <div id="table"><h3>Таблица</h3></div>
+
+    <table border="1">
+        <caption>Расписание на понедельник</caption>
+        <thead>
+            <tr>
+                <td colspan="2"><center>Курс</center></td>
+                <td colspan="2"><center>2</center></td>
+            </tr>
+            <tr>
+                <th>№</th>
+                <th>Время</th>
+                <th>27/1</th>
+                <th>27/2</th>
+            </tr>    
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="2">1</td>
+                <td rowspan="2">8:00-9:20</td>
+                <td>Дифференциальные уравнения</td>
+                <td>Компьютерные сети</td>
+            </tr>
+            <tr>
+                <td colspan="2"><center>Математический анализ</center></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>9:30-10:50</td>
+                <td colspan="2"><center>Разаработка WEB интерфейса</center></td>
+            </tr>
+            <tr>
+                <td >3</td>
+                <td >11:10-12:30</td>
+                <td colspan="2"><center>ООП</center></td>
+            </tr>
+            <tr>
+                <td rowspan="2">4</td>
+                <td rowspan="2">12:40-14:00</td>
+                <td rowspan="2"></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td><center>Диффуры</center></td>
+            </tr>
+        </tbody>
+
+    </table>
+
+
+
+
     <div id="reg"><h3>Пожалуйста, введите свои данные для регистрации</h3></div>
 
     <form>
@@ -147,6 +216,11 @@
     <form name="form" method="post" action="index.html">
         <button type="submit">Отправить</button>
     </form>
+
+<footer>
+    (с)Баринова Анастасия
+</footer>
+
 
 </body>
 
